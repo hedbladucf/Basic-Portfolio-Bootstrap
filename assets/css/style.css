@@ -1,165 +1,127 @@
-p {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 12pt;
-    line-height: 1.5;
-    margin-top: 10px;
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-h1, h2, h3{
-	font-family: 'Georgia', Times, "Times New Roman", serif;
+body {
+  margin-bottom: 60px;
+  font-family: Helvetica;
+  background-image: url(../images/paisley4.jpg);
 }
-h1 {  
-    padding: 20px;
-    margin-top: 15px;
-    font-size: 20pt;
-    color: white;
+p{
+	font-size: 12pt;
+  font-family: 'Varela Round', sans-serif;
+	color: orange;
 }
-h2{
-	color: #4aaaa5;
+label{
+  color: orange;
+}
+.picture-title:hover, label:hover{
+  color: grey;
+}
+.thumbnail{
+  height: 185px;
+  width: 185px;
+  background-color: #1C1F24;
+  border: 1px solid #1C1F24;
+}
+.panel-default > .panel-heading{
+  border-color: orange;
+}
+.btn-primary {
+    color: orange;
+    background-color: #1C1F24;
+    border-color: #1C1F24;
+}
+.footer {
+  position: absolute;
+  text-align: center;
+  padding-top: 20px;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #1C1F24;
+}
+.navbar-nav{
+	padding-right: 90px;
+}
+.panel-title, .panel-body{
+	text-align: center;
+}
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a,
+.panel-title, .page-header{
+	color: orange;
+}
+.navbar-default{
+	background-color: #1C1F24;
+	padding: 0;
+  border-bottom: 1px solid orange;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-color: #1C1F24;
+}
+#connectLinks{
+	padding-top: 62px;
+	padding-left: 50px;
+}
+.panel-title{
+	padding-bottom: 10px;
+}
+.panel, .panel-title{
+	background-color: transparent;
+	border-color: transparent;
+  width: 250px;
+}
+.panel-title, .panel-default > .panel-heading{
 	font-size: 18pt;
-	padding-bottom: 25px;
-	border-bottom: 2px solid #cccccc;
-	margin-bottom: 15px;
+	background-color: transparent;
 }
-h3{
-	font-size: 12pt;
-	padding-top: 20px;
+.page-header{
+  border-bottom: 1px solid orange;
 }
-footer{
-	text-align: center;
-	height: 60px;
-	background-color: #666666;
-	color: white;
-	overflow: auto;
-	padding-top: 40px;
-/*	clear: both;
-*/	border-top: 6px solid #4aaaa5;
+.panel-heading {
+    padding: 0;
+    border-bottom: 1px solid orange;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
 }
-a{
-	text-decoration: none;
+.row .second, .row .first{
+  padding-left: 50px;
+  padding-right: 50px;
 }
-.profile-pic{
-	float: left;
-	height: 200px;
-	padding-right: 15px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+.row .second{
+  padding-top: 20px;  
 }
-.head-section{
-	overflow: auto;
-	background-color: white;
-	border-bottom: 1px solid #cccccc;
+.picture-title{
+  text-align: center;
+  color: orange;
+  transition: all .5s ease-in-out;
+  animation-delay: .5s;
 }
-#head-head{
-	margin-left: 15%;
-	height: 100px;
-	width: 230px;
-	text-align: center;
-	background-color: #4aaaa5;
-	float: left;
-}
-#navigation-links{
-	font-family: 'Georgia', Times, "Times New Roman", serif;
-	float: left;
-	margin-top: 85px;
-	margin-left: 33.3%;
-}
-#connect-text{
-	width: 250px;
-	height: 150px;
-	padding: 20px;
-	background-color: white;
-	float: left;
-	text-align: center;
-	margin-left: 50px;
-	margin-top: 30px;
-	border: 1px solid #cccccc;
-}
-#about-me-content{
-	background-color: #ffffff;
-	border: 1px solid #cccccc;
-	float: left;
-	width: 590px;
-	margin-left: 15%;
-	padding: 30px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	text-align: justify;
-}
-.text-content{
-	overflow: auto;
-	background-repeat: repeat;
-	background-image: url(../images/paisley.png);
-}
-.input{
-	width: 585px;
-	height: 25px;
-	font-size: 10pt;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-button{
-	font-family: 'Georgia', Times, "Times New Roman", serif;
-	height: 40px;
-	width: 110px;
-	text-align: center;
-	background-color: #4aaaa5;
-	float: left;
-	border-color: #4aaaa5;
-	border-bottom: 1px solid #cccccc;
-	border-right: 1px solid #4aaaa5;
-}
-#submit{
-	color: white;
-	text-align: center;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 12pt;
-	margin-top: 0;
-}
-.titles{
-	color: grey;
-}
-.photo-left, .photo-right{
-	position: relative;
-	height: 200px;
-	width: 270px;
-	padding: 10px;
-}
-.photo-left{
-	float: left;
-}
-.photo-right{
-	float: right;
-}
-.pic1, .pic2, .pic3, .pic4, .pic5{
-	z-index: 2;
-	background: #4aaaa5;
-	color: white;
-	text-align: center;
-	font-family: georgia;
-	width: 270px;
-	height: 40px;
-	position: absolute;
-}
-.pic1, .pic2, .pic5{
-	left: 255px;
-}
-.pic3, .pic4{
-	left: 555px;
-}
-.pic1 {
-	top: 370px;
-}
-.pic2 {
-	top: 590px;
-}
+@media(max-width:980px){
+  .picture-title{
+    text-align: left;
+  }
+  .thumbnail{
+    height: 200px;
+    width: 200px;
+  }
 
-.pic3 {
-	top: 370px;
 }
+@media(max-width:768px){
+  .picture-title{
+    text-align: left;
+  }
+  .thumbnail{
+    height: 200px;
+    width: 200px;
+  }
 
-.pic4 {
-	top: 590px;
 }
+@media(max-width:640px){
+  h1{
+    position: static;
+  }
 
-.pic5 {
-	top: 810px;
 }

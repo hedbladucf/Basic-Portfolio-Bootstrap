@@ -1,66 +1,91 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	</head>
-	<body>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Oscar | Portfolio</title>
+      <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/animate.min.css">
+   </head>
+   <body>
+      <nav class="navbar navbar-default">
+         <div class="container">
+            <div class="navbar-header">
+               <a class="navbar-brand animated lightSpeedIn" href="index.html">Oscar Hedblad</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html" class="animated lightSpeedIn">About</a></li>
+                  <li><a href="portfolio.html" class="animated lightSpeedIn">Portfolio</a></li>
+                  <li><a href="contact.html" class="animated lightSpeedIn">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-8">
+               <div class="page-header">
+                  <h1>Portfolio</h1>
+               </div>
+               <div class="row first">
+                     <div class="col-md-4">
+                        <h4 class="picture-title animated fadeIn">Hangman</h4>
+                        <a href="http://www.hbo.com/game-of-thrones"><img src="assets/images/portfolio/hangman.jpg" alt="hangman" class="img-responsive thumbnail""></a>
+                     </div>
+                     <div class="col-md-4">
+                        <h4 class="picture-title animated fadeIn">RPG Game</h4>
+                        <a href="http://us.battle.net/wow/en/"><img src="assets/images/portfolio/rpg.jpg" alt="my skills" class="img-responsive thumbnail"></a>
+                     </div>
+                     <div class="col-md-4">
+                        <h4 class="picture-title animated fadeIn">Trivia Game</h4>
+                        <a href="http://www.google.com"><img src="assets/images/portfolio/triviagame.jpg" alt="my skills" class="img-responsive thumbnail"></a>
+                     </div>
+               </div>
+               <div class="row second">
+                     <div class="col-md-4">
+                        <h4 class="picture-title animated fadeIn">UCF Info Widget</h4>
+                        <a href="http://www.ucf.edu"><img src="assets/images/portfolio/ucfinfo.jpg" alt="my skills" class="img-responsive thumbnail"></a>
+                     </div>
+                     <div class="col-md-4">
+                        <h4 class="picture-title animated fadeIn">Rock Paper Scissor</h4>
+                        <a href="https://en.wikipedia.org/wiki/Rock-paper-scissors"><img src="assets/images/portfolio/rockpaper.jpg" alt="my skills" class="img-responsive thumbnail"></a>
+                     </div>
+                      <div class="col-md-4">
+                        <h4 class="picture-title animated fadeIn">Concerts</h4>
+                        <a href="#"><img src="assets/images/portfolio/stones1.jpg" alt="my skills" class="img-responsive thumbnail"></a>
+                     </div>
+               </div>
+            </div>
+            <div class="col-md-4" id="connectLinks">
+               <div class="panel panel-default">
+                  <div class="panel-heading">
+                     <h3 class="panel-title">Connect with Me</h3>
+                  </div>
+                  <div class="panel-body">
+                     <a href="https://stackoverflow.com">
+                     <img src="assets/images/links/stackoverflow.jpg" width="65" 
+                        alt="pic1" class="img-circle"></a>
 
-		<div id="head-div">
-			<section class="head-section">
-				<div id="head-head">
-					<h1>Oscar Hedblad</h1>
-				</div>
-				<div id="navigation-links">
-					<a href="index.html" class="navlinks">About | </a>
-					<a href="portfolio.html" class="navlinks">Portfolio | </a>
-					<a href="contact.html" class="navlinks">Contact</a>
-				</div>
-			</section>
-		</div>
+                     <a href="https://www.linkedin.com/in/oscar-hedblad-26840a82?trk=hp-identity-name">
+                     <img src="assets/images/links/linkedin.jpg" width="65" 
+                        alt="pic2" class="img-circle"></a>
 
-		<section class="text-content">
-			<div id="about-me-content">
-
-				<h2>Portfolio</h2>
-
-				<h3 class="pic1">Hangman</h3>
-				<a href="http://www.hbo.com/game-of-thrones"><img class="photo-left" src ="assets/images/hangman.png" alt="hangman"></a>
-
-				<h3 class="pic3">RPG Game</h3>
-				<a href="http://us.battle.net/wow/en/"><img class="photo-right" src="assets/images/rpg.jpg" alt="rpg"></a>
-
-				<h3 class="pic2">Trivia Game</h3>
-				<a href="http://www.triviaplaza.com/"><img class="photo-left" src ="assets/images/triviagame.jpg" alt="trivia"></a>
-
-				<h3 class="pic4">UCF Info Widget</h3>
-				<a href="http://www.ucf.edu/"><img class="photo-right" src="assets/images/ucfinfo.jpg" alt="rutgers"></a>
-
-				<h3 class="pic5">Rock Paper Scissors</h3>
-				<a href="https://en.wikipedia.org/wiki/Rock-paper-scissors"><img class="photo-left" src ="assets/images/rockpaper.jpg" alt="rps"></a>
-
-				
-			</div>	
-
-			<div id="connect-text">
-				<h2> Connect with Me</h2>
-					<a href="https://stackoverflow.com">
-					<img src="assets/images/stackoverflow.jpg" width="65" 
-					alt="pic1"></a>
-					
-					<a href="https://www.linkedin.com/in/oscar-hedblad-26840a82?trk=hp-identity-name">
-					<img src="assets/images/linkedin.jpg" width="65" 
-					alt="pic2"></a>
-					
-					<a href="https://github.com/hedbladucf">
-					<img src="assets/images/github.jpg" width="65" 
-					alt="pic3"></a>		
-			</div>
-		</section>
-	</body>
-<footer>
-	© Copyright 2016 Oscar Hedblad
-</footer>
+                     <a href="https://github.com/hedbladucf">
+                     <img src="assets/images/links/github.jpg" width="65" 
+                        alt="pic3" class="img-circle"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer class="footer">
+         <div class="container">
+            <p class="text-muted">© Copyright Oscar Hedblad 2016</p>
+         </div>
+      </footer>
+   </body>
 </html>
