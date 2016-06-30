@@ -107,6 +107,9 @@ label{
     height: 200px;
     width: 200px;
   }
+  #bio-parapgraph{
+    padding-top: 40px;
+  }
 
 }
 @media(max-width:768px){
@@ -117,11 +120,22 @@ label{
     height: 200px;
     width: 200px;
   }
+  #bio-paragraph{
+    padding-top: 40px;
+  }
+  .navbar-default .navbar-nav>li>a{
+    float: left;
+  }
 
 }
 @media(max-width:640px){
   h1{
     position: static;
   }
-
+  #bio-parapgraph{
+    padding-top: 40px;
+  }
+  .navbar-default .navbar-nav>li>a{
+    float: left;
+  }
 }
